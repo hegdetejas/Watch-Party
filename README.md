@@ -13,4 +13,4 @@ Hi! Welcome to my Chat application, called Watch Party! This is a single page ap
   - DB_USERNAME = ~Name of MYSQL DB username e.g. root~
   - DB_PASSWORD = ~Password corresponding to DB username~
 - Navigate to the root directory and run: python app.py :from the command line.
-- Copy and paste the URL that the Flask server has locally hosted and enjoy using the application!!
+- Copy and paste the URL that the Flask server has locally hosted into your browser of choice and enjoy using the application!!
