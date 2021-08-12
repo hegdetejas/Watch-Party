@@ -1,0 +1,95 @@
+<html>
+
+<head>
+  <title>Watch Party 2</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </link>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap" rel="stylesheet">
+  <script src="/static/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="splash">
+      <img src="/static/images/background.jpg" alt="Background image" class="backgroundImage">
+      <div class="centered-title">
+        <h1>Watch Party!</h1>
+      </div>
+      <div class="centered-subtitle">
+        <h2>The Single Page Experience</h2>
+      </div>
+      <div class="login-form">
+        <div class="username">
+          <label for="username">Username: </label>
+          <input id="username-input" type="text" name="username" required>
+        </div>
+        <div class="password">
+          <label for="password">Password: </label>
+          <input id="password-input" type="password" name="password" required>
+        </div>
+        <div class="buttons">
+          <button class="login-button" onclick="login()">Login</button>
+          <button class="signup-button" onclick="signup()">Signup</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="login">
+      <img src="/static/images/background.jpg" alt="Background image" class="backgroundImage">
+      <div class="centered-title-login">
+        <h1>Login or Signup</h1>
+      </div>
+      <div class="centered-subtitle-login">
+      </div>
+      <div class="login-form">
+        <div class="username">
+          <label for="username">Username: </label>
+          <input id="username-input-magic" type="text" name="username" required>
+        </div>
+        <div class="password">
+          <label for="password">Password: </label>
+          <input id="password-input-magic" type="password" name="password" required>
+        </div>
+        <div class="buttons">
+          <button class="login-button" onclick="login()">Login</button>
+          <button class="signup-button" onclick="signup()">Signup</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-index">
+      <img src="/static/images/background.jpg" alt="Background image" class="backgroundImage">
+      <div class="centered">
+        <h1>My Chats</h1>
+      </div>
+      <div class="active-chats-box">
+        <div class="active-chats">
+        </div>
+      </div>
+      <button onclick="createChat()" class="centered-button">Create a Chat!</button>
+    </div>
+
+    <div class="chat">
+      <div>
+        <h1 class="title">Invite your friends with this magic link!</h1>
+        <hr>
+        <p class="magic-link"></p>
+        <hr>
+      </div>
+      <div class="chat-box">
+        <div class="messages">
+        </div>
+      </div>
+      <div class="comment-box">
+        <input name="comment" id="message" />
+        <button class="post-button" onclick="postMessage()">Send Message</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

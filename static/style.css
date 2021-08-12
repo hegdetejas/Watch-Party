@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+}
+
+/* HOMEPAGE */
+.splash {
+  display: block;
+}
+
+.backgroundImage {
+  z-index: 850;
+  width: 100%;
+}
+
+.centered-title {
+  z-index: 900;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.centered-subtitle {
+  z-index: 900;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.centered-username {
+  z-index: 900;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+
+.login-form {
+  z-index: 900;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 3px;
+  border-radius: 7px;
+  width: 25%;
+  height: 22%;
+}
+
+.username {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  margin-top: 8%;
+  margin-left: 15%;
+  font-size: 20px;
+}
+
+.password {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 5%;
+  margin-left: 16%;
+}
+
+.login-button {
+  margin-left: 26%;
+  margin-top: 7%;
+  width: 20%;
+  height: 15%;
+  background-color: white;
+  color: green;
+  border-color: white;
+  /* background-color: green;
+  color: white;
+  border-color: green; */
+}
+
+.signup-button {
+  background-color: white;
+  color: black;
+  border-color: white;
+  margin-left: 3%;
+  width: 20%;
+  height: 15%;
+}
+
+/* CHAT INDEX PAGE */
+.chat-index {
+  display: none;
+}
+
+.centered {
+  z-index: 900;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+
+.centered-button {
+  z-index: 900;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+  border-color: green;
+  color: white;
+  width: 8%;
+  height: 5%;
+}
+
+.active-chats-box {
+  z-index: 900;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 70%;
+  height: 50%;
+  border: solid white 3px;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.active-chats-box::-webkit-scrollbar {
+  display: none;
+}
+
+.active-chats {
+  z-index: 900;
+  position: absolute;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* CHAT PAGE */
+.chat {
+  display: none;
+  background-image: url(./images/background.jpg);
+  background-size: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  /* margin-top: 2%; */
+  padding-top: 2%;
+  margin-bottom: 2%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+
+.magic-link {
+  text-align: center;
+  color: #fa73e6;
+  font-family: "Arima Madurai", cursive;
+}
+
+.chat-box {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 63%;
+  overflow: scroll;
+  margin-top: 3%;
+  background-color: black;
+  border: solid white 3px;
+  border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar {
+  display: none;
+}
+
+.comment-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#message {
+  margin-right: 0.5%;
+  width: 170px;
+}
+
+.post-button {
+  margin-left: 0.5%;
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.messages {
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.comment-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.username-node {
+  color: white;
+  margin-left: 2%;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+
+.body-node {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.active-chat-node:hover {
+  cursor: grab;
+}
+
+/* LOGIN */
+.centered-title-login {
+  z-index: 900;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.centered-subtitle-login {
+  z-index: 900;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
